@@ -4,8 +4,8 @@ notify [light sensor](https://github.com/node-linda/ruby-linda-arduino-sensor) v
 
 
 - watch {"type": "sensor", "name": "light"}
-  - write {"type": "say", "value": "~~で電気がつきました" or "電気が消えました"}
-  - write {"type": "skype", "cmd": "post", "value": "~~で電気がつきました" or "~~で電気が消えました"}
+  - write {"type": "say", "value": "#{space}で電気がつきました" or "消えました"}
+  - write {"type": "skype", "cmd": "post", "value": "#{space}で電気がつきました" or "消えました"}
 
 - https://github.com/node-linda/node-linda-light-notify
 
