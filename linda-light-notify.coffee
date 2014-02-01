@@ -28,11 +28,11 @@ linda.io.on 'connect', ->
         console.log "#{ts.name} -> #{tuple.data.value}, last:#{last_value}"
         if last_value != null and Date.now()
           if tuple.data.value > last_value
-            if tuple.data.value / (last_value+1) > 2
+            if tuple.data.value / (last_value+1) > 3
               console.log msg = "#{config.spaces[ts.name]} で電気がつきました"
               notify msg, tuple.data.value
           else
-            if last_value / (tuple.data.value+1) > 2
+            if last_value / (tuple.data.value+1) > 3
               console.log msg = "#{config.spaces[ts.name]} で電気が消えました"
               notify msg, tuple.data.value
         last_value = tuple.data.value
