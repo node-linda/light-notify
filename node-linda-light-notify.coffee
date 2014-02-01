@@ -24,7 +24,6 @@ linda.io.on 'connect', ->
       console.log "watch #{ts.name}"
       ts.watch {type: "sensor", name: "light"}, (err, tuple) ->
         return if err
-        tuple.data.value -= 0
         console.log "#{ts.name} -> #{tuple.data.value}, last:#{last_value}"
         if last_value != null and Date.now()
           if tuple.data.value > last_value
