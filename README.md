@@ -14,9 +14,6 @@ notify [light sensor](https://github.com/node-linda/ruby-linda-arduino-sensor) v
 
     % npm install
 
-## Config
-
-    % cp sample.config.json config.json
 
 ## Run
 
