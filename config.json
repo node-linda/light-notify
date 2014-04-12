@@ -1,6 +1,7 @@
 {
   "url" : "http://node-linda-base.herokuapp.com",
   "spaces" : {
+    "masuilab": "増井研",
     "delta": "デルタ",
     "iota": "イオタ",
     "shokai_house": "しょうかいハウス"
