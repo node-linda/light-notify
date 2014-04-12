@@ -2,6 +2,7 @@
   "url" : "http://node-linda-base.herokuapp.com",
   "spaces" : {
     "delta": "デルタ",
-    "iota": "イオタ"
+    "iota": "イオタ",
+    "shokai_house": "しょうかいハウス"
   }
 }
