@@ -1,5 +1,5 @@
 {
-  "name": "node-linda-light-notify",
+  "name": "light-notify",
   "private": true,
   "version": "0.0.0",
   "description": "notify light sensor changes",

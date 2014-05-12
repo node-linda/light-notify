@@ -1,13 +1,13 @@
 Linda Light Notify
 ==================
-notify [light sensor](https://github.com/node-linda/ruby-linda-arduino-sensor) value to [skype](https://github.com/node-linda/ruby-linda-skype) and [mac-say](https://github.com/node-linda/node-linda-mac-say)
+notify [light sensor](https://github.com/node-linda/arduino-sensor) value to [skype](https://github.com/node-linda/ruby-linda-skype) and [mac-say](https://github.com/node-linda/mac-say)
 
 
 - watch {"type": "sensor", "name": "light"}
   - write {"type": "say", "value": "#{space}で電気がつきました" or "消えました"}
   - write {"type": "skype", "cmd": "post", "value": "#{space}で電気がつきました" or "消えました"}
 
-- https://github.com/node-linda/node-linda-light-notify
+- https://github.com/node-linda/light-notify
 
 
 ## Install Dependencies
