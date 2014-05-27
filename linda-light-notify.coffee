@@ -14,6 +14,7 @@ for name, yomi of config.spaces
 notify = (msg, value) ->
   for ts in tss
     ts.write {type: "say", value: msg}
+    ts.write {type: "slack", cmd: "post", value: "#{msg} (#{value})"}
     ts.write {type: "skype", cmd: "post", value: "#{msg} (#{value})"}
 
 linda.io.on 'connect', ->
